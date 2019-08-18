@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Pomodoro App",
+    "version": "1.0",
+    "description": "Highly customizable pomodoro app",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "popup.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

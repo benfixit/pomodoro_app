@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pomodoro App</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <main class="main-wrapper">
+        <h1>Pomodoro App</h1>
+        <div id="settings">
+            <section class="left">
+                <h3>Break Length</h3>
+                <p>
+                    <button type="button" id="decrease_break">-</button>
+                    <span id="break_length">5</span>
+                    <button type="button" id="increase_break">+</button>
+                </p>
+            </section>
+            <section class="right">
+                <h3>Session Length</h3>
+                <p>
+                    <button type="button" id="decrease_session">-</button>
+                    <span id="session_length">10</span>
+                    <button type="button" id="increase_session">+</button>
+                </p>
+            </section>
+        </div>
+        <div id="countdown-display">
+            <h2>Session</h2>
+            <p id="timer">--:--:--</p>
+        </div>
+        <div id="controls">
+            <button type="button" id="stop_btn">Stop</button>
+            <button type="button" id="start_btn">Start</button>
+        </div>
+    </main>
+    <script src="popup.js"></script>
+</body>
+
+</html>
